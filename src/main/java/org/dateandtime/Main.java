@@ -53,6 +53,8 @@ public class Main {
     public static void main(String[] args) {
         Main app = new Main();
         app.printEmployeesInJSON();
+        System.out.println("-------------------------------");
+        System.out.println("printMonthlyUpcomingEnrolleesReport");
         app.printMonthlyUpcomingEnrolleesReport();
     }
 }
